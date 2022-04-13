@@ -1,0 +1,11 @@
+.boton_agregar-form-agregar{
+
+    background: #2A7AE4;
+    border: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 1rem 0;
+    width: 100%;
+}

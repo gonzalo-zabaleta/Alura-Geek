@@ -1,0 +1,7 @@
+.productos{
+
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+    width: 70%;
+}

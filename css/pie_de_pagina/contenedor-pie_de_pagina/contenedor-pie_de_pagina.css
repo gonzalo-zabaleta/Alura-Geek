@@ -1,0 +1,9 @@
+.contenedor-pie_de_pagina{
+
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+    margin: 0 auto;
+    width: 70%;
+}

@@ -1,0 +1,8 @@
+.titulo-pie_de_pagina{
+
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 2rem;
+}

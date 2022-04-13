@@ -1,0 +1,42 @@
+.label-form-agregar{
+
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 16px;
+    height: 100%;
+    line-height: 20px;
+    padding: 0.5rem 0.75rem;
+    pointer-events: none;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+
+.label_descripcion-form-agregar{
+
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 16px;
+    height: 100%;
+    line-height: 20px;
+    padding: 0.5rem 0.75rem;
+    pointer-events: none;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+
+.input-form-agregar:focus + .label-form-agregar, .text_descripcion-form-agregar:focus + .label_descripcion-form-agregar{
+
+    transform: translateY(-25%);
+}
+
+.input-form-agregar:valid + .label-form-agregar{
+
+    transform: translateY(-25%);
+}
+
+.text_descripcion-form-agregar:valid + .label_descripcion-form-agregar{
+
+    visibility: hidden;
+}

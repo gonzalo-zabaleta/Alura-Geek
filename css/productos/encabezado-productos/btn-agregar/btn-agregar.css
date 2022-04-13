@@ -1,0 +1,11 @@
+.btn-agregarProducto{
+
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 1rem;
+    text-decoration: none;
+}

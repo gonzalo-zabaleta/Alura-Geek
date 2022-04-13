@@ -1,0 +1,5 @@
+.contenedor_descripcion-producto{
+    
+    display: flex;
+    flex-direction: column;
+}

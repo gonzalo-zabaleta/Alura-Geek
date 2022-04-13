@@ -1,0 +1,5 @@
+.lista-pie_de_pagina{
+
+    display: flex;
+    flex-direction: column;
+}

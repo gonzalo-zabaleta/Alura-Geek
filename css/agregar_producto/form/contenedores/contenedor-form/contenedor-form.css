@@ -1,0 +1,12 @@
+.contenedor-form{
+
+    background: #ffffff;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 56px;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.contenedor-rodapie{
+
+    align-items: center;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
+}

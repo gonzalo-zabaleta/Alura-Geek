@@ -1,0 +1,8 @@
+.agregar_producto{
+
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    margin: 0 auto;
+    width: 30%;
+}

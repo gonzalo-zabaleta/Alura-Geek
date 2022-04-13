@@ -1,0 +1,7 @@
+.contenedor-btn{
+
+    display: flex;
+    place-content: flex-end;
+    position: relative;
+    top: -10.625rem;
+}

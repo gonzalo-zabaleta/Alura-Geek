@@ -1,0 +1,9 @@
+.input_email, .input_contrasena{
+
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    height: 62px;
+    width: 423px;
+}

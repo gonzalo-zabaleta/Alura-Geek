@@ -1,0 +1,8 @@
+.contenedor_descripcion-banner{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 15%;
+    top: 35%;
+}
