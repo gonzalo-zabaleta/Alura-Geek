@@ -9,5 +9,7 @@
 
 .enlace-titulo-encabezado{
 
+    align-items: center;
+    display: flex;
     text-decoration: none;
 }
