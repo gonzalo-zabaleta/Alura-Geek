@@ -6,6 +6,17 @@
     font-size: 16px;
     line-height: 19px;
     max-width: 97px;
-    padding: 16px;
+    padding: 1rem;
+    text-align: center;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .boton-banner{
+
+        font-size: 14px;
+        font-weight: 600;
+        padding: 0.75rem 1rem;
+    }
 }

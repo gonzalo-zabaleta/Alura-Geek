@@ -1,0 +1,17 @@
+.contenedor-contenido-pie{
+
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .contenedor-contenido-pie{
+
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+    }
+}

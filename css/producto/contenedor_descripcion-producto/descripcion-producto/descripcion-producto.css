@@ -5,3 +5,13 @@
     font-size: 16px;
     line-height: 19px;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .descripcion-producto-principal{
+
+        line-height: 16px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

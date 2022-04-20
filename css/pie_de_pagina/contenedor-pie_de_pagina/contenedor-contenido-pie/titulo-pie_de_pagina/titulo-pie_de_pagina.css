@@ -6,3 +6,11 @@
     font-weight: bold;
     margin-right: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+
+    .titulo-pie_de_pagina{
+
+        margin: 0 0 1rem 0;
+    }
+}

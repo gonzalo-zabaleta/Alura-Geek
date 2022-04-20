@@ -6,3 +6,13 @@
     margin-bottom: 0.5rem;
     line-height: 61px;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .nombre-producto-principal{
+
+        line-height: 26px;
+        font-size: 22px;
+        font-weight: 500;
+    }
+}

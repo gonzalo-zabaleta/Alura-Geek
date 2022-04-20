@@ -7,3 +7,13 @@
     margin: 0 auto;
     width: 70%;
 }
+
+@media screen and (max-width: 768px) {
+
+    .contenedor-pie_de_pagina{
+
+        padding: 2rem 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+}

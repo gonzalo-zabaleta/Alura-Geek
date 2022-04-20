@@ -5,3 +5,12 @@
     font-size: 32px;
     line-height: 38px;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .titulo-productos{
+
+        line-height: 26px;
+        font-size: 22px;
+    }
+}

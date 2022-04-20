@@ -3,6 +3,17 @@
     background: #fff;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
-    padding: 16px 70px;
+    padding: 1rem 4.375rem;
+    text-align: center;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .boton_login-encabezado{
+
+        font-size: 14px;
+        font-weight: 600;
+        padding: 0.75rem 3rem;
+    }
 }

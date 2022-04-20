@@ -6,3 +6,12 @@
     left: 15%;
     top: 35%;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .contenedor_descripcion-banner{
+
+        left: 5%;
+        top: 30%;
+    }
+}

@@ -13,3 +13,12 @@
     display: flex;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .titulo-encabezado{
+
+        font-size: 26px;
+        margin-right: 1rem;
+    }
+}
