@@ -1,0 +1,10 @@
+.contenedor-drop_image{
+
+    align-items: center;
+    background: #ffffff;
+    border: 1px dashed #C8C8C8;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 55%;
+}

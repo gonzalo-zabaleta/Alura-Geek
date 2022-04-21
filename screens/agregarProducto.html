@@ -35,6 +35,14 @@
     <link rel="stylesheet" href="../css/agregar_producto/titulo/titulo.css">
     <link rel="stylesheet" href="../css/agregar_producto/form/form-agregar.css">
     <link rel="stylesheet" href="../css/agregar_producto/form/contenedores/contenedor_imagen/contenedor_imagen.css">
+
+    <link rel="stylesheet" href="../css/agregar_producto/form/contenedores/contenedor_imagen/contenedor-drop/contenedor-drop.css">
+    <link rel="stylesheet" href="../css/agregar_producto/form/contenedores/contenedor_imagen/contenedor-drop/input/input.css">
+    <link rel="stylesheet" href="../css/agregar_producto/form/contenedores/contenedor_imagen/contenedor-drop/label/label.css">
+    <link rel="stylesheet" href="../css/agregar_producto/form/contenedores/contenedor_imagen/contenedor-drop/imagen/imagen.css">
+    <link rel="stylesheet" href="../css/agregar_producto/form/contenedores/contenedor_imagen/boton_buscar/boton_buscar.css">
+
+
     <link rel="stylesheet" href="../css/agregar_producto/form/contenedores/contenedor_imagen/input/input.css">
     <link rel="stylesheet" href="../css/agregar_producto/form/contenedores/contenedor-form/contenedor-form.css">
     <link rel="stylesheet" href="../css/agregar_producto/form/contenedores/contenedor-form/input/input.css">
@@ -92,10 +100,13 @@
             <h2 class="titulo-agregar">Agregar nuevo producto</h2>
             <form class="form-agregar" action="">
                 <div class="contenedor_imagen-form">
-                    <input class="input_imagen-agregar" type="image" width="300px" height="300px">
-                    <label for=""><i class="fa-solid fa-image"></i>Arrastre para agregar una nueva imagen para el producto</label>
-                    <p>O</p>
-                    <input type="file" name="" id="">
+                    <div class="contenedor-drop_image">
+                        <label class="label_imagen" for="image"><i class="fa-solid fa-image icon-image"></i>Arrastre para agregar una nueva imagen para el producto</label>
+                        <input class="input_imagen-agregar" type="file" name="image" required>
+                        <img class="imagen-agregada" src="" alt="">
+                    </div>
+                    <p class="separacion_imagen">O</p>
+                    <button class="buscar_archivo">Busque en su computador</button>
                 </div>
                 <div class="contenedor-form">
                     <input class="input-form-agregar" type="text" name="nombre" required>

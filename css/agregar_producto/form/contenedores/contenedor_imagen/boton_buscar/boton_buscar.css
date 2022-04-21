@@ -1,0 +1,11 @@
+.buscar_archivo{
+
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 1rem;
+    text-align: center;
+}

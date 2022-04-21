@@ -1,6 +1,9 @@
 .contenedor_imagen-form{
 
-    display: flex;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    height: 152px;
     width: 100%;
 }
