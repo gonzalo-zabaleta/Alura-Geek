@@ -6,7 +6,18 @@
     width: 40%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
+    
+    .contenedor-contenido-pie{
+
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
     
     .contenedor-contenido-pie{
 

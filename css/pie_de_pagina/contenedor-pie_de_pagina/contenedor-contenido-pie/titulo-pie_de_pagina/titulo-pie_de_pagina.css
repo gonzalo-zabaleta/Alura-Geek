@@ -7,7 +7,15 @@
     margin-right: 2rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
+    
+    .titulo-pie_de_pagina{
+
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
 
     .titulo-pie_de_pagina{
 

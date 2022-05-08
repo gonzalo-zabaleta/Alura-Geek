@@ -8,12 +8,22 @@
     width: 70%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
+    
+    .contenedor-pie_de_pagina{
+
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 0;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
 
     .contenedor-pie_de_pagina{
 
         padding: 2rem 0;
-        margin: 0 auto;
         width: 90%;
     }
 }

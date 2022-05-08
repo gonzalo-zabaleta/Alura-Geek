@@ -8,3 +8,13 @@
     line-height: 19px;
     padding: 1rem;
 }
+
+@media screen and (max-width: 360px) {
+    
+    .btn_enviar-form{
+
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0.75rem 1rem;
+    }
+}

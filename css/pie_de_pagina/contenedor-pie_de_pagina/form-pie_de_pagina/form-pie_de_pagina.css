@@ -6,7 +6,15 @@
     width: 40%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
+    
+    .form-pie_de_pagina{
+
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
     
     .form-pie_de_pagina{
 
