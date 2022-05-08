@@ -4,3 +4,12 @@
     margin-bottom: 4rem;
     width: 176px;
 }
+
+@media screen and (max-width: 360px) {
+    
+    .item-lista-productos{
+
+        margin-bottom: 1rem;
+        width: 156px;
+    }
+}
