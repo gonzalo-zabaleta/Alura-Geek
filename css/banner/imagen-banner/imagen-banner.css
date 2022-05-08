@@ -5,7 +5,15 @@
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
+    
+    .imagen-banner{
+
+        height: 192px;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
 
     .imagen-banner{
 
