@@ -77,6 +77,7 @@
 
     <link rel="stylesheet" href="../css/pie_de_pagina/contenedor-rodapie/contenedor-rodapie.css">
     <link rel="stylesheet" href="../css/pie_de_pagina/contenedor-rodapie/contenido-rodapie/contenido-rodapie.css">
+
 </head>
 <body class="base">
     <header class="encabezado">
@@ -100,13 +101,13 @@
             <h2 class="titulo-agregar">Agregar nuevo producto</h2>
             <form class="form-agregar" action="">
                 <div class="contenedor_imagen-form">
-                    <div class="contenedor-drop_image">
-                        <label class="label_imagen" for="image"><i class="fa-solid fa-image icon-image"></i>Arrastre para agregar una nueva imagen para el producto</label>
-                        <input class="input_imagen-agregar" type="file" name="image" required>
-                        <img class="imagen-agregada" src="" alt="">
+                    <div id="contenedor-agregar-imagen" class="contenedor-drop_image">
+                        <label id="label-imagen" class="label_imagen" for="image"><i class="fa-solid fa-image icon-image"></i>Arrastre para agregar una nueva imagen para el producto</label>
+                        <input id="input-imagen" class="input_imagen-agregar" type="file" name="image" required>
+                        <img id="imagen-agregada" class="imagen-agregada" src="" alt="">
                     </div>
                     <p class="separacion_imagen">O</p>
-                    <button class="buscar_archivo">Busque en su computador</button>
+                    <button id="btn-agregar-imagen" class="buscar_archivo">Busque en su computador</button>
                 </div>
                 <div class="contenedor-form">
                     <input class="input-form-agregar" type="text" name="nombre" required>
@@ -173,5 +174,6 @@
                 2022</p>
         </div>
     </footer>
+    <script src="../js/arrastrarImagen.js"></script>
 </body>
 </html>

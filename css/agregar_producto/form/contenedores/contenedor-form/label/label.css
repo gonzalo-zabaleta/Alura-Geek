@@ -40,3 +40,12 @@
 
     visibility: hidden;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .label-form-agregar{
+
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
