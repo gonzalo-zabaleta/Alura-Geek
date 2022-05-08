@@ -7,3 +7,22 @@
     height: 62px;
     width: 423px;
 }
+
+@media screen and (max-width: 360px) {
+    
+    .input_email, .input_contrasena{
+
+        height: 41px;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .input_email::placeholder, .input_contrasena::placeholder{
+
+        color: #A2A2A2;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        padding-left: 0.75rem;
+    }
+}

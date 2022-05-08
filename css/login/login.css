@@ -8,3 +8,11 @@
     padding: 4rem 0;
     width: 35%;
 }
+
+@media screen and (max-width: 360px) {
+    
+    .login{
+
+        width: 80%;
+    }
+}

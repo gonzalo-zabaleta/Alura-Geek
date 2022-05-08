@@ -3,6 +3,18 @@
     background: #2A7AE4;
     border: none;
     color: #fff;
+    font-weight: 600;
     height: 62px;
     width: 423px;
+}
+
+@media screen and (max-width: 360px) {
+    
+    .btn_entrar{
+
+        font-size: 14px;
+        height: 40px;
+        line-height: 16px;
+        width: 50%;
+    }
 }
