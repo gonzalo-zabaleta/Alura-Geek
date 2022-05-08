@@ -9,7 +9,15 @@
     width: 393px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
+    
+    .contenedor_buscador-encabezado{
+
+        display: none;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
     
     .contenedor_buscador-encabezado{
 
