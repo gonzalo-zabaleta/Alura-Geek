@@ -5,3 +5,12 @@
     justify-content: space-between;
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 360px) {
+    
+    .encabezado-productos{
+
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

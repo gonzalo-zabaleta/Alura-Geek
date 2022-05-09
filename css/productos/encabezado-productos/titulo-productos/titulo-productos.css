@@ -6,6 +6,14 @@
     line-height: 38px;
 }
 
+@media screen and (max-width: 360px) {
+
+    .titulo-productos{
+
+        margin-bottom: 1rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     
     .titulo-productos{

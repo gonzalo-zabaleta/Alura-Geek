@@ -11,6 +11,7 @@
     .productos{
 
         margin: 1rem auto;
+        padding: 1rem 0;
         width: 95%;
     }
 }
