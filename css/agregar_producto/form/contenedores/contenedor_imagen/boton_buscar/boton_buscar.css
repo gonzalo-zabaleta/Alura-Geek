@@ -9,3 +9,16 @@
     padding: 1rem;
     text-align: center;
 }
+
+@media screen and (max-width: 360px) {
+    
+    .buscar_archivo{
+
+        display: none;
+    }
+
+    .separacion_imagen{
+
+        display: none;
+    }
+}

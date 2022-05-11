@@ -13,3 +13,11 @@
 
     background: #b2cff7;
 }
+
+@media screen and (max-width: 360px) {
+    
+    .contenedor-drop_image{
+
+        width: 100%;
+    }
+}
